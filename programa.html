@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function mostra(isaac) {
+
+		document.write(isaac);
+	}
+
+
+
+	var ano = 2020;
+	mostra("Olá pessoal");
+	pulaLinha();
+// document.write("Milena tem " + ( ano - 1999 ) + " anos" );
+	mostra("Milena tem " + ( ano - 1999 ) + " anos" );
+	pulaLinha();
+// document.write("Suellen tem " + ( ano - 1993 ) + " anos" );
+	mostra("Suellen tem " + ( ano - 1993 ) + " anos" );
+	pulaLinha();
+//declarando uma nova variavél
+	var idadeMilena = 21;
+	var idadeSuellen = 30;
+	
+	var media = (idadeMilena + idadeSuellen)/2; 
+	document.write("A média das idades é " + Math.round(media) );
+//para arrendondar o valor usar Math.round()
+</script>
